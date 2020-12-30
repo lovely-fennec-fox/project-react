@@ -1,0 +1,44 @@
+.ListInfoBody {
+    margin-top:2%;
+    margin-bottom: 2%;
+    margin-left: -7%;
+    padding: 3%;
+    border-left: 1px solid darkgray;
+}
+
+.ListInfoBody_input {
+    margin-top: 3%;
+}
+
+
+.rate {
+    margin-top: 7px;
+    margin-right: 1%;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border: 1px solid rgb(0, 155, 223);
+    border-radius: 10px;
+    background-color:  rgb(0, 155, 223);
+    padding: 5px;
+    float: right;
+    text-align: center;
+}
+
+.ratetitle {
+    border-right: 1px solid white;
+    font-size: 15px;
+}
+
+.ratevalue {
+    font-size: 15px;
+}
+
+.moneytitle {
+    background-color: rgb(180, 223, 30);
+    border-color: rgb(180, 223, 30);
+}
+
+.money {
+    border-color: rgb(180, 223, 30);
+}

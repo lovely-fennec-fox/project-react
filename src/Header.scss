@@ -1,0 +1,113 @@
+// 넥슨 메인 아이콘 설정 (상욱 07.30)
+.mainicon{
+    padding: 0px;
+    margin: 0px;
+    width: 50px;
+    position: relative;
+    
+}
+//-------------------------------------------
+
+// font설정 및 전체 사이즈 조정 (상욱 07.25)
+
+@font-face{
+    font-family: 'Black Han Sans', sans-serif;
+   
+    src: url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" rel="stylesheet');
+}
+
+* {
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+// 헤더와 로그인폼 스타일 시작 (상욱 07.25)
+.header{
+   min-width: 800px; // nav 줄어드는거 방지
+    height: 60px;
+    border-bottom: 2px solid black;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+
+.header ul{
+   float: right;
+    list-style: none;
+}
+.header li {  //NavLogin 후 박스 설정
+    display: block;
+    position: relative;
+    margin: 0 ;
+    width: 120px;
+}
+// 헤더와 로그인폼 스타일 끝 (상욱 07.25)
+
+//userinfo 모달 스타일 시작 (상욱 08.01)
+
+.userinfo {
+    top: 20%;
+
+}
+
+.userinfoimg{
+        float: left;
+    }
+.info{
+    width: 40%;
+    float: right;
+    font-size: 24px;
+   
+}
+
+.uploadimg{
+    float: left;
+}
+//모달 스타일 끝
+
+
+// 상단 Navbar 재설정 상욱
+// td{
+//     // background-color: red;
+// }
+
+.form {
+    padding: 0;
+    margin: 0;
+}
+
+.testI{
+  width: 60px;
+  height: 58px;
+}
+.tdNav{
+    width:130px;
+    text-align: center;
+}
+.tdNav:hover{
+    background-color: #c1dfe2;
+}
+
+.logTable{
+    margin-top:35px;
+  
+}
+.logTable td{
+    padding-left: 10px;
+    padding-right:10px;
+    
+}
+table:hover{
+text-decoration: none;
+color: black;
+cursor: pointer;
+}
+
+table a{
+    color: black;
+}
+table a:hover{
+    text-decoration: none;
+    color: black;
+}

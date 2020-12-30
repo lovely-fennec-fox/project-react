@@ -1,0 +1,25 @@
+.Receipt {
+    border: 1px solid lightgray;
+    padding: 3%;
+}
+
+.ReceiptBody {
+    border: 1px solid lightgray;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.ReceiptBody h1{
+    text-align: left;
+    float: left;
+}
+
+.ReceiptBody p{
+    text-align: left;
+    float: left;
+    margin-top:20px;
+    margin-left:10px;
+}

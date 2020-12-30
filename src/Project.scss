@@ -1,0 +1,29 @@
+
+
+#Contents{
+  transition: .5s;
+  width:100%;
+  top:60px;
+}
+#Mypage {
+  position: absolute;
+  width: 0px;
+  z-index: 1;
+  top: 60px;
+  right: 0;
+  background-color: #c3c3c3;
+  transition: 0.5s;
+  margin:0 auto;
+  overflow: hidden;
+}
+.ContentsBox{
+  overflow: hidden;
+}
+
+.footer {
+  margin-top: 100px;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;   
+  text-align: center;
+}

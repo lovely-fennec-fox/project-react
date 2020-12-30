@@ -1,0 +1,21 @@
+.ExchangeReceipt {
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    width: 80%;
+    max-height: 15vh;
+    overflow: scroll;
+    margin-left: 10%;
+    background-color: rgb(180, 223, 30);
+}
+
+.ExchangeReceipt:hover {
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    width: 80%;
+    max-height: 50vh;
+    overflow: scroll;
+    margin-left: 10%;
+    background-color: rgb(180, 223, 30);
+}
